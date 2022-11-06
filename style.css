@@ -19,8 +19,6 @@ body {
     gap: 300px;
 }
 
-
-
 .Header-Links {
     display: flex;
     justify-content: space-between;
@@ -40,13 +38,12 @@ a {
     color: #f9faf8;
 }
 
-
 .blockOne {
     color: #f9faf8;
     background-color: #1f2937;
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 110px;
     padding: 80px;
     
 }
@@ -95,8 +92,53 @@ button {
     border: none;
 }
 
-.blockTwo h1{
+.blockTwo {
     justify-content: center;
+    align-items: center;
     display: flex;
+    flex-direction: column;
+    padding: 32px;
 
+}
+
+.blockTwo h1 {
+    margin: 32px;
+}
+
+.subtext-container {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    gap: 32px;
+}
+
+.subtext {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 150px;
+    height: 75px;
+    padding-bottom: 64px;
+    text-align: center;
+    
+    flex: 1;
+}
+
+.image-placeholder {
+    width: 150px;
+    height: 150px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 8px;
+}
+
+.blockThree {
+    background-color: #1f2937;
+}
+
+.foot {
+    justify-content: center;
+    background-color: #1f2937;
 }
