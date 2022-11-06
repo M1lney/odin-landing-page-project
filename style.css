@@ -14,8 +14,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 16px;
-    gap: 500px;
+    padding: 32px;
+    
+    gap: 300px;
 }
 
 
@@ -24,6 +25,8 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 24px;
+    font-size: 18px;
+    color: #e5e7eb;
     
 }
 
@@ -41,5 +44,59 @@ a {
 .blockOne {
     color: #f9faf8;
     background-color: #1f2937;
+    display: flex;
     justify-content: center;
+    gap: 100px;
+    padding: 80px;
+    
+}
+
+.left-content {
+    width: 350px;
+}
+
+.left-content h1 {
+    font-size: 48px;
+    flex-wrap: wrap;
+    
+}
+
+.left-content h1, .left-content p {
+    margin: 0px;
+}
+
+.left-content p{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+}
+
+.img {
+   
+    display: flex;
+    flex: auto;
+    
+}
+
+.img-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-left: 75px;
+    padding-right: 75px;
+    background-color: gray;
+}
+
+button {
+    background-color:#3882f6;
+    color: white;
+    border-radius: 8px;
+    padding: 4px 16px;
+    border: none;
+}
+
+.blockTwo h1{
+    justify-content: center;
+    display: flex;
+
 }
